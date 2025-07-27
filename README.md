@@ -61,8 +61,9 @@ Access the shortened URL:
 
 ```
 📁 url-shortener/
-├── shorten_url.py        # Lambda: shorten handler
-├── redirect_url.py       # Lambda: redirect handler
+├── lambda
+|    ├── shorten_url.py        # Lambda: shorten handler
+|    ├── redirect_url.py       # Lambda: redirect handler
 ├── test_request.http     # Test requests for REST clients
 ├── architecture.png      # Diagram of architecture
 └── README.md             # You’re here!
